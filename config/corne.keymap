@@ -58,17 +58,16 @@
       &kp PLUS        &kp N7          &kp N8          &kp N9            &none         &none
 //  |===============|===============|===============|=================|===============|
 //  | *             | "             | (             | )               | $             |
-&none &mt LALT STAR   &mt LMETA RA(LS(SQT))
-                                      &mt LCTRL LPAR  &mt LSHFT RPAR    &kp DLLR
+&none &mt LALT STAR   &mt LMETA RA(LS(SQT)) &mt LCTRL LPAR  &mt LSHFT RPAR  &kp DLLR
 //  |---------------|---------------|---------------|-----------------|---------------|
 //  | -             | 4             | 5             | 6               | DEL           |
       &kp MINUS       &mt LSHFT N4    &mt LCTRL N5    &mt LMETA N6      &kp DEL       &none
 //  |===============|===============|===============|=================|===============|
 //  | %             | ^             | [             | ]               | _             |
-      &kp PERCENT     &kp CARET       &kp LBKT        &kp RBKT          &kp UNDER
+&none &mt RALT PERCENT &kp CARET     &kp LBKT        &kp RBKT          &kp UNDER
 //  |---------------|---------------|---------------|-----------------|---------------|
 //  | 0             | 1             | 2             | 3               | /             |
-      &kp 0           &kp N1          &kp N2          &kp N3            &kp FSLH      &none
+      &kp 0           &kp N1          &kp N2          &kp N3            &mt RALT FSLH &none
 //  |===============|===============|===============|=================|===============|
 
 //  |===============|===============|
@@ -84,7 +83,7 @@
       bindings = <
 //  |===============|=================|===============|===============|===============|
 //  | |             | §               | «             | »             | ?             |
-&none &kp PIPE        &kp RA(S)         &kp LA(Z)       &kp LA(X)       &kp LS(MINUS)
+&none &kp PIPE        &kp RA(LS(S))     &kp RA(LBKT)    &kp RA(RBKT)    &kp LS(MINUS)
 //  |---------------|-----------------|---------------|---------------|---------------|
 //  | HOME          | PGDN            | PGUP          | END           | SYSTEM_LAYER  |
       &kp HOME        &kp PG_DN         &kp PG_UP       &kp END         &none         &none
@@ -93,13 +92,13 @@
 &none &mt LALT HASH   &mt LMETA SQT     &mt LCTRL LT    &mt LSHFT GT    &kp AMPS
 //  |---------------|-----------------|---------------|---------------|---------------|
 //  | LEFT          | DOWN            | UP            | RIGHT         | INS           |
-      &kp LEFT        &mt LSHFT DOWN    &mt LCTRL UP    &mt LALT LEFT   &kp INS       &none
+      &kp LEFT        &mt LSHFT DOWN    &mt LCTRL UP    &mt LALT RIGHT  &kp INS       &none
 //  |===============|=================|===============|===============|===============|
 //  | ¨             | ~               | `             | ´             | CAPS_WORD     |
-&none &kp RA(DQT)     &kp TILDE         &kp GRAVE       &kp RA(SQT)     &caps_word
+&none &mt RALT DQT    &kp TILDE         &kp GRAVE       &kp RA(SQT)     &caps_word
 //  |---------------|-----------------|---------------|---------------|---------------|
 //  | ;             | :               | ,             | .             | \             |
-//    &kp SEMI        &kp COLON         &kp COMMA       &kp DOT         &kp BSLH      &none
+//    &kp SEMI        &kp COLON         &kp COMMA       &kp DOT         &mt RALT BSLH &none
 //  |===============|=================|===============|===============|===============|
 
 //  |===============|===============|
