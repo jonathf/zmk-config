@@ -41,10 +41,10 @@
 
 //  |===========|=============|
 //  | TAB       | SPACE       |
-&none &lt 1 TAB   &lt 2 SPACE
+&none &lt 2 TAB   &lt 1 SPACE
 //  |-----------|-------------|
 //  | ENTER     | ESCAPE      |
-      &lt 2 ENTER &lt 1 ESC   &none
+      &lt 1 ENTER &lt 2 ESC   &none
 //  |===========|=============|
       >;
     };
